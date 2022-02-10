@@ -14,6 +14,7 @@ const Layout = ({ children }) => {
         <>
         <Head>
             <link rel="manifest" href="manifest.json"/>
+            <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
         </Head>
         <div className="content">
             <NavBar/>
