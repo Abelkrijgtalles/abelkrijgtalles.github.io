@@ -10,7 +10,7 @@ const Random = () => {
             </Head>
             <div>
                 <h1>Random dingen</h1>
-                <Link href={'/abelshoekje/random/mensen'}><a className={styles.single}>Mensen</a></Link>
+                <Link href={'/abelshoekje/random/mensen'}><a className={styles.single}><h3>Mensen</h3></a></Link>
             </div>
         </>
     );
