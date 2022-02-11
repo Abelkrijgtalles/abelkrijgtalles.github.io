@@ -18,10 +18,10 @@ const Mensen = ({ mensen }) => {
     return (
         <>
             <Head>
-                <title>Random foto's | Abel krijgt alles</title>
+                <title>Random foto&apos;s | Abel krijgt alles</title>
             </Head>
             <div>
-                <h1>Dit zijn random foto's:</h1>
+                <h1>Dit zijn random foto&apos;s:</h1>
                 {mensen.map(mens => (
                     <Link key={mens.id} href={'/abelshoekje/random/fotos/' + mens.id}>
                         <a className={styles.single}>
