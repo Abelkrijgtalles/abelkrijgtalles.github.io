@@ -12,6 +12,7 @@ const Random = () => {
                 <h1>Random dingen</h1>
                 <Link href={'/abelshoekje/random/mensen'}><a className={styles.single}><h3>Mensen</h3></a></Link>
                 <Link href={'/abelshoekje/random/posts'}><a className={styles.single}><h3>Posts (Latijn)</h3></a></Link>
+                <Link href={'/abelshoekje/random/fotos'}><a className={styles.single}><h3>Foto&apos;s</h3></a></Link>
             </div>
         </>
     );
