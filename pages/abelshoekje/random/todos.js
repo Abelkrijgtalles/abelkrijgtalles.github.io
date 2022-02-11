@@ -1,4 +1,4 @@
-import styles from '../../../../styles/Mensen.module.css'
+import styles from '../../../styles/Mensen.module.css'
 import Head from 'next/head';
 
 export const getStaticProps = async () => {
