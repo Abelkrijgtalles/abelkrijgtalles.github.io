@@ -13,6 +13,7 @@ const Random = () => {
                 <Link href={'/abelshoekje/random/mensen'}><a className={styles.single}><h3>Mensen</h3></a></Link>
                 <Link href={'/abelshoekje/random/posts'}><a className={styles.single}><h3>Posts (Latijn)</h3></a></Link>
                 <Link href={'/abelshoekje/random/fotos'}><a className={styles.single}><h3>Foto&apos;s (Niet zo handig als je trag internet hebt)</h3></a></Link>
+                <Link href={'/abelshoekje/random/todos'}><a className={styles.single}><h3>Todo&apos;s (Latijn)</h3></a></Link>
             </div>
         </>
     );
