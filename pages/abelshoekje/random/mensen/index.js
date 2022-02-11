@@ -16,19 +16,19 @@ export const getStaticProps = async () => {
 const Mensen = ({ mensen }) => {
     return (
         <>
-        <Head>
-            <title>Random mensen | Abel krijgt alles</title>
-        </Head>
-        <div>
-            <h1>Dit zijn random mensen:</h1>
-            {mensen.map(mens => (
-                <Link key={mens.id} href={'/abelshoekje/random/mensen/' + mens.id}>
-                    <a className={styles.single}>
-                        <h3>{mens.name}</h3>
-                    </a>
-                </Link>
-            ))}
-        </div>
+            <Head>
+                <title>Random mensen | Abel krijgt alles</title>
+            </Head>
+            <div>
+                <h1>Dit zijn random mensen:</h1>
+                {mensen.map(mens => (
+                    <Link key={mens.id} href={'/abelshoekje/random/mensen/' + mens.id}>
+                        <a className={styles.single}>
+                            <h3>{mens.name}</h3>
+                        </a>
+                    </Link>
+                ))}
+            </div>
         </>
     );
 }
