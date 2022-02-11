@@ -21,7 +21,7 @@ const Mensen = ({ mensen }) => {
             <div>
                 <h1>Dit zijn random todo&apos;s:</h1>
                 {mensen.map(mens => (
-                    <h3 className={styles.single}>{ mens.title }</h3>
+                    <h3 className={styles.single} key={mens.id}>{ mens.title }</h3>
                 ))}
             </div>
         </>
