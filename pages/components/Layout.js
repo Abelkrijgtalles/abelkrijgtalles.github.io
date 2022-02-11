@@ -8,7 +8,6 @@ const Layout = ({ children }) => {
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/service-worker.js');
         }
-        console.log('Hoi, dit is met liefde gemaakt door Abel')
     }, [])
     return (
         <>
