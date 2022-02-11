@@ -24,7 +24,7 @@ const Mensen = ({ mensen }) => {
                 {mensen.map(mens => (
                     <Link key={mens.id} href={'/abelshoekje/random/fotos/' + mens.id}>
                         <a className={styles.single}>
-                            <h3>{mens.title}</h3>
+                            <Image src={mens.thumbnailUrl} height={"50"} width={"50"} alt={mens.title}/>
                         </a>
                     </Link>
                 ))}
