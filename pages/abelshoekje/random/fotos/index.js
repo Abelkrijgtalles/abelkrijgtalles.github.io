@@ -1,6 +1,7 @@
 import styles from '../../../../styles/Mensen.module.css'
 import Link from 'next/link';
 import Head from 'next/head';
+import Image from 'next/image';
 
 export const getStaticProps = async () => {
 
@@ -24,7 +25,7 @@ const Mensen = ({ mensen }) => {
                 {mensen.map(mens => (
                     <Link key={mens.id} href={'/abelshoekje/random/fotos/' + mens.id}>
                         <a className={styles.single}>
-                            <Image src={mens.thumbnailUrl} height={"50"} width={"50"} alt={mens.title}/>
+                            <Image src={mens.thumbnailUrl} height={"50"} width={"50"}/>
                         </a>
                     </Link>
                 ))}
