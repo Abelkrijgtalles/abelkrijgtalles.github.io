@@ -8,6 +8,7 @@ const NavBar = () => {
                 <Image src="/Logo.png" width={128} height={128} alt="Abel krijgt alles logo"/>
             </div>
             <Link href="/"><a>Homepagina</a></Link>
+            <Link href="/videos"><a>Nieuwste video&apos;s</a></Link>
             <Link href="/abelshoekje"><a>Abels Hoekje</a></Link>
         </nav>
     );
