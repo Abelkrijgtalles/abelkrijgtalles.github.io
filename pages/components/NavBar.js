@@ -5,7 +5,9 @@ const NavBar = () => {
     return (
         <nav>
             <div className="logo">
-                <Image src="/Logo.png" width={128} height={128} alt="Abel krijgt alles logo"/>
+                <Link href="/">
+                    <Image src="/Logo.png" width={128} height={128} alt="Abel krijgt alles logo" />
+                </Link>
             </div>
             <Link href="/"><a>Homepagina</a></Link>
             <Link href="/videos"><a>Nieuwste video&apos;s</a></Link>
@@ -13,5 +15,5 @@ const NavBar = () => {
         </nav>
     );
 }
- 
+
 export default NavBar;
