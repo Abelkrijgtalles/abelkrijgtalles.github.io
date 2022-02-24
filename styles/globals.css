@@ -13,20 +13,6 @@ a {
   max-width: 960px;
   margin: 0 auto;
 }
-nav {
-  margin: 10px auto 80px;
-  padding: 10px 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  border-bottom: 1px solid #ddd;
-}
-nav a {
-  margin-left: 12px;
-}
-nav .logo {
-  margin-right: auto;
-}
 footer {
   display: block;
   text-align: center;
@@ -41,4 +27,87 @@ footer {
 .not-found a{
   color: #4979ff;
   text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: "Nunito";
+  background-color: wheat;
+}
+
+.logo {
+  color: #333;
+  text-decoration: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px;
+}
+
+@media screen and (max-width:768px){
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li{
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+  from{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }

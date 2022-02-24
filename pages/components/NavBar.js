@@ -3,18 +3,28 @@ import Image from "next/image";
 
 const NavBar = () => {
     return (
+        <>
         <nav>
             <div className="logo">
                 <Link href="/">
                     <a>
-                        <Image src="/Logo.png" width={128} height={128} alt="Abel krijgt alles logo" />
+                        <Image src="/Logo.png" width={64} height={64} alt="Abel krijgt alles logo" />
                     </a>
                 </Link>
             </div>
-            <Link href="/"><a>Homepagina</a></Link>
-            <Link href="/videos"><a>Nieuwste video&apos;s</a></Link>
-            <Link href="/abelshoekje"><a>Abels Hoekje</a></Link>
+            <ul className="nav-links">
+                <li><Link href="/"><a>Homepagina</a></Link></li>
+                <li><Link href="/videos"><a>Nieuwste video&apos;s</a></Link></li>
+                <li><Link href="/abelshoekje"><a>Abels Hoekje</a></Link></li>
+            </ul>
+            <div className="burger">
+                <div className="line1"></div>
+                <div className="line2"></div>
+                <div className="line3"></div>
+            </div>
         </nav>
+        <script src="/nav.js"></script>
+        </>
     );
 }
 
