@@ -19,7 +19,7 @@ const Mensen = ({ mensen }) => {
             <Head>
                 <title>Random mensen | Abel krijgt alles</title>
             </Head>
-            <div>
+            <div className='content'>
                 <h1>Dit zijn random mensen:</h1>
                 {mensen.map(mens => (
                     <Link key={mens.id} href={'/abelshoekje/random/mensen/' + mens.id}>

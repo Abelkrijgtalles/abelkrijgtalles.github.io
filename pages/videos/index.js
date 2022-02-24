@@ -23,7 +23,7 @@ const Mensen = ({ mensen1, mensendata1 }) => {
             <Head>
                 <title>Nieuwste video&apos;s | Abel krijgt alles</title>
             </Head>
-            <div>
+            <div className='content'>
                 <h1>Dit zijn de nieuwste video&apos;s van verschilende Abel krijgt alles:</h1>
                 <p>Dit kan tot een dag duren voordat het update</p>
                 <Link href={"https://abelr.tk/yt"}>

@@ -32,7 +32,7 @@ const Persoon = ({ mens }) => {
             <Head>
                 <title>{mens.title} | Abel krijgt alles</title>
             </Head>
-            <div>
+            <div className="content">
                 <h1>{ mens.title }</h1>
                 <p>{ mens.body }</p>
             </div>

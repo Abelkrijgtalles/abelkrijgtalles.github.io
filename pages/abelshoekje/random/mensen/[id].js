@@ -32,7 +32,7 @@ const Persoon = ({ mens }) => {
             <Head>
                 <title>{mens.name} | Abel krijgt alles</title>
             </Head>
-            <div>
+            <div className="content">
                 <h1>{mens.name} AKA {mens.username}</h1>
                 <h6><i>{mens.company.bs}</i></h6>
                 <p>E-mail: {mens.email}</p>
