@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Script from "next/script";
 
 const NavBar = () => {
     return (
@@ -23,7 +24,7 @@ const NavBar = () => {
                 <div className="line3"></div>
             </div>
         </nav>
-        <script src="/nav.js"></script>
+        <Script src="/nav.js"></Script>
         </>
     );
 }
