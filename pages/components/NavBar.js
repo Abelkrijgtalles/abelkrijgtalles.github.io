@@ -14,6 +14,7 @@ const NavBar = () => {
             <ul className="nav-links">
                 <li><Link href="/"><a>Homepagina</a></Link></li>
                 <li><Link href="/videos"><a>Nieuwste video&apos;s</a></Link></li>
+                <li><Link href="/blog"><a>Blog</a></Link></li>
                 <li><Link href="/abelshoekje"><a>Abels Hoekje</a></Link></li>
             </ul>
             <Link href="/components/Menu">
