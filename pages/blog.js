@@ -7,7 +7,7 @@ const Blog = () => {
         <div className={styles.row}>
             <div className='leftcolumn'>
                 <div className={styles.card}>
-                    <h2><Link href={"https://abelkrijgtalles.nl"}><a>abelkrijgtalles.nl werkt nu!</a></Link></h2>
+                    <h2><Link href={"https://abelkrijgtalles.nl"}><a>abelkrijgtalles.nl</a></Link> werkt nu!</h2>
                     <h5>26 Februari 2022</h5>
                     <p>Als je nu naar <Link href="https://abelkrijgtalles.nl"><a>abelkrijgtalles.nl</a></Link> gaat, werkt het!</p>
                 </div>
