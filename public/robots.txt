@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /abelshoekje/random/posts/
+Disallow: /abelshoekje/random/mensen/
+Disallow: /api/
+Disallow: /components/
+
+Sitemap: http://www.abelkrijgtalles.nl/sitemap.xml
