@@ -9,47 +9,57 @@
 
 <url>
   <loc>https://www.abelkrijgtalles.nl/</loc>
-  <lastmod>2022-02-27T18:54:09+00:00</lastmod>
+  <lastmod>2022-03-04T21:27:45+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.abelkrijgtalles.nl/videos</loc>
-  <lastmod>2022-02-27T18:54:09+00:00</lastmod>
+  <lastmod>2022-03-04T21:27:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.abelkrijgtalles.nl/blog</loc>
-  <lastmod>2022-02-27T18:54:09+00:00</lastmod>
+  <lastmod>2022-03-04T21:27:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.abelkrijgtalles.nl/abelshoekje</loc>
-  <lastmod>2022-02-27T18:54:09+00:00</lastmod>
+  <lastmod>2022-03-04T21:27:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.abelkrijgtalles.nl/socials</loc>
-  <lastmod>2022-02-27T18:54:09+00:00</lastmod>
+  <lastmod>2022-03-04T21:27:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.abelkrijgtalles.nl/abelshoekje/random</loc>
-  <lastmod>2022-02-27T18:54:09+00:00</lastmod>
+  <lastmod>2022-03-04T21:27:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.abelkrijgtalles.nl/abelshoekje/voormensen</loc>
+  <lastmod>2022-03-04T21:27:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.abelkrijgtalles.nl/abelshoekje/random/mensen</loc>
-  <lastmod>2022-02-27T18:54:09+00:00</lastmod>
+  <lastmod>2022-03-04T21:27:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.abelkrijgtalles.nl/abelshoekje/random/posts</loc>
-  <lastmod>2022-02-27T18:54:09+00:00</lastmod>
+  <lastmod>2022-03-04T21:27:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.abelkrijgtalles.nl/abelshoekje/random/todos</loc>
-  <lastmod>2022-02-27T18:54:09+00:00</lastmod>
+  <lastmod>2022-03-04T21:27:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.abelkrijgtalles.nl/abelshoekje/voormensen/tijn</loc>
+  <lastmod>2022-03-04T21:27:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
