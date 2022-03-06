@@ -7,7 +7,7 @@ const Blog = () => {
         <div className={styles.row}>
             <div className='leftcolumn'>
                 <div className={styles.card}>
-                    <h2><Link href="https://abelkrijgtalles.nl"><a>abelkrijgtalles.nl</a></Link> is nu beter/meer ondersteunend voor oude webbrowser!</h2>
+                    <h2><Link href="https://abelkrijgtalles.nl"><a>abelkrijgtalles.nl</a></Link> is nu beter/meer ondersteunend voor oude webbrowsers!</h2>
                     <h5>6 Maart 2022</h5>
                     <p>Ik ga nu misschien een beetje &quot;nerdie&quot; praten, maar als je daar oké mee bent laten we verder gaan. Door dat ik &quot;TypeScript&quot; gebruik (TypeScript is een soort van JavaScript++ van Microsoft) kan ik zeggen, hé, zorg dat de code werkt op elke JavaScript versie vanaf 1999.</p>
                 </div>
