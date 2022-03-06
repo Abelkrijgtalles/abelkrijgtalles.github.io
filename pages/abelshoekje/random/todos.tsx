@@ -1,7 +1,8 @@
 import styles from '../../../styles/Mensen.module.css'
 import Head from 'next/head';
+import { GetStaticProps } from 'next';
 
-export const getStaticProps = async () => {
+export const getStaticProps: GetStaticProps = async () => {
 
     const res = await fetch('http://jsonplaceholder.typicode.com/todos');
     const data = await res.json();

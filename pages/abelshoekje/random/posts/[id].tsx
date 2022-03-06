@@ -1,7 +1,8 @@
 import Head from "next/head";
+import { GetStaticPaths, GetStaticProps } from "next";
 
-export const getStaticPaths = async () => {
-    const res = await fetch('http://jsonplaceholder.typicode.com/users');
+export const getStaticPaths: GetStaticPaths = async () => {
+    const res = await fetch('http://jsonplaceholder.typicode.com/posts');
     const data = await res.json();
 
     const paths = data.map(mens => {
@@ -16,9 +17,9 @@ export const getStaticPaths = async () => {
     }
 }
 
-export const getStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps = async (context) => {
     const id = context.params.id;
-    const res = await fetch('http://jsonplaceholder.typicode.com/users/' + id);
+    const res = await fetch('http://jsonplaceholder.typicode.com/posts/' + id);
     const data = await res.json();
 
     return {
@@ -30,13 +31,11 @@ const Persoon = ({ mens }) => {
     return (
         <>
             <Head>
-                <title>{mens.name} | Abel krijgt alles</title>
+                <title>{mens.title} | Abel krijgt alles</title>
             </Head>
             <div className="content">
-                <h1>{mens.name} AKA {mens.username}</h1>
-                <h6><i>{mens.company.bs}</i></h6>
-                <p>E-mail: {mens.email}</p>
-                <p>Website: {mens.website}</p>
+                <h1>{ mens.title }</h1>
+                <p>{ mens.body }</p>
             </div>
         </>
     );

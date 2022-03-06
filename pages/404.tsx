@@ -11,7 +11,6 @@ const NotFound = () => {
             router.push('/')
         }, 5000)
     }, [])
-
     return (
         <>
             <Head>

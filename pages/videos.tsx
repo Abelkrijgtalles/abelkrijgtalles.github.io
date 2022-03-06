@@ -2,8 +2,9 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Mensen.module.css'
+import { GetStaticProps } from 'next';
 
-export const getStaticProps = async () => {
+export const getStaticProps: GetStaticProps = async () => {
 
     const res = await fetch('https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCKzup9N8BB-Z2DjFgKw4dtw&maxResults=50&order=date&key=AIzaSyBWAY365b2jYtXrCHlxfdC3rQfRB84okWE');
     const data = await res.json();
