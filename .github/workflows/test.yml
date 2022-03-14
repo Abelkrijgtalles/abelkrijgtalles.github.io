@@ -13,4 +13,4 @@ jobs:
       with:
         node-version: '14'
     - run: npm install
-    - run: npx cypress run --record --key 3fbea00d-9ab5-456e-b223-52d77fe405df --parallel
+    - run: npx cypress run --record --key 3fbea00d-9ab5-456e-b223-52d77fe405df
