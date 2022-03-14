@@ -91,3 +91,5 @@ nav {
 .menuonderdelen li a h1 {
   font-size: 50px;
 }
+
+.canvas{position:fixed;top:0;left:0}
