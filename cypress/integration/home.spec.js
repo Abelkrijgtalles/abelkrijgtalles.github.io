@@ -2,7 +2,7 @@
 
 context("Home Page", () => {
     beforeEach(() => {
-        cy.visit("http://localhost:3000")
+        cy.visit("http://abelkrijgtalles.nl")
     })
 
     it("should find all h1, h2, p and a and check if they contain text", () => {

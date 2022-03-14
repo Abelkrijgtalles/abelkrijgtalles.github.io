@@ -1,0 +1,16 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-website:
+    runs-on: ubuntu-latest
+    name: Test the website
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - run: npm install
+    - run: npx cypress run --record --key 3fbea00d-9ab5-456e-b223-52d77fe405df
