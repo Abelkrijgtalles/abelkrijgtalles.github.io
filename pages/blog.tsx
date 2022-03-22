@@ -30,7 +30,7 @@ const Blog = () => {
                 <div className={styles.card}>
                     <h2>Dit is het logo</h2>
                     <h5>25 Februari 2022</h5>
-                    <div className={styles.fakeimg}><Image src='/Logo.png' width="128" height="128"></Image></div>
+                    <div className={styles.fakeimg}><Image src='/Logo.svg' width="128" height="128"></Image></div>
                     <p>Da&apos;s leuk hè</p>
                 </div>
                 <div className={styles.card}>

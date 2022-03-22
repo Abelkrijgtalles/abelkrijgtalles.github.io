@@ -7,7 +7,7 @@ const NavBar = () => {
             <div className="logo">
                 <Link href="/">
                     <a>
-                        <Image src="/Logo.png" width={64} height={64} alt="Abel krijgt alles logo" />
+                        <Image src="/Logo.svg" width={64} height={64} alt="Abel krijgt alles logo" />
                     </a>
                 </Link>
             </div>

@@ -17,9 +17,9 @@ const Home = () => {
         <h1 className={styles.groot}>Social Media:</h1>
         <div className={styles.socialdiv}>
           <ul className={styles.social}>
-            <li><Link href="https://abelr.tk/yt"><a><Image src="/Youtube.png" height="64" width="124" /></a></Link></li>
-            <li><Link href="https://abelr.tk/dc"><a><Image src="/Discord.png" height="64" width="64" /></a></Link></li>
-            <li><Link href="https://abelr.tk/ig"><a><Image src="/Instagram.png" height="64" width="64" /></a></Link></li>
+            <li><Link href="https://abelr.tk/yt"><a><Image src="/Youtube.svg" height="64" width="124" /></a></Link></li>
+            <li><Link href="https://abelr.tk/dc"><a><Image src="/Discord.svg" height="64" width="64" /></a></Link></li>
+            <li><Link href="https://abelr.tk/ig"><a><Image src="/Instagram.svg" height="64" width="64" /></a></Link></li>
             <li><Link href="/socials"><a><h2 className={styles.medium}><br/>meer...</h2></a></Link></li>
           </ul></div>
         <h1 className={styles.groot}>Blog:</h1>
