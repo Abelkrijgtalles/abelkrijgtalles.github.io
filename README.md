@@ -5,5 +5,21 @@
 
 The website can be found at [https://abelkrijgtalles.nl](https://abelkrijgtalles.nl)
 
+# Commands
+Download all the needed packages
+
+`npm install`
+
+Start a dev build
+
+`npm run dev`
+
+Test
+
+`npm run test`
+
+Start a build for the web server
+
+`npm run build` and `npm run start`
 # Information
 This website is made with Next.js
