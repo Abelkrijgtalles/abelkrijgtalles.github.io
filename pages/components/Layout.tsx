@@ -13,6 +13,8 @@ const Layout = ({ children }) => {
         <>
             <Head>
                 <link rel="manifest" href="manifest.json" />
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3986699835905370"
+                    crossOrigin="anonymous"></script>
             </Head>
             <div className="content">
                 <NavBar />
