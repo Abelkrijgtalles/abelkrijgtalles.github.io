@@ -11,16 +11,26 @@ const Layout = ({ children }) => {
     }, [])
     return (
         <>
-        <Head>
-            <link rel="manifest" href="manifest.json"/>
-        </Head>
-        <div className="content">
-            <NavBar/>
-            { children }
-            <Footer/>
-        </div>
+            <Head>
+                <link rel="manifest" href="manifest.json" />
+            </Head>
+            <div className="content">
+                <NavBar />
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3986699835905370"
+                    crossOrigin="anonymous"></script>
+                <ins className="adsbygoogle"
+                    data-ad-client="ca-pub-3986699835905370"
+                    data-ad-slot="2542128588"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({ });
+                </script>
+                {children}
+                <Footer />
+            </div>
         </>
     );
 }
- 
+
 export default Layout;
