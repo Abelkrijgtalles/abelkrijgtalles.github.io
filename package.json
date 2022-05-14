@@ -10,7 +10,7 @@
     "cypress:open": "cypress open"
   },
   "dependencies": {
-    "next": "12.1.0",
+    "next": "12.1.1",
     "postcss": "^8.4.12",
     "postcss-preset-env": "^7.4.3",
     "react": "17.0.2",
